@@ -7,7 +7,7 @@
 		"ext-gd" : "*",
 		"ext-pdo_mysql" : "*",
 		"ext-mbstring" : "*",
-		"windwork/wf" : "*"
+		"windwork/app" : "*"
 	},
 	"license" : "MIT",
 	"autoload" : {
