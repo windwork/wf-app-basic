@@ -35,6 +35,7 @@ define('WF_DEBUG', true);
 define('ROOT_DIR', __DIR__);
 
 require_once 'vendor/autoload.php';
+\wf\app\Loader::loadWfInOne();
 
 $app = \wf\app\web\Application::app();
 $app->run();
